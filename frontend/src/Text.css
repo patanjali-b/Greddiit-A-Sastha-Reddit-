@@ -1,0 +1,33 @@
+.Text
+{
+    text-align: center;
+    text-decoration:firebrick ;   
+}
+.Button
+{
+  background-color: blueviolet; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+button:hover
+{
+    background-color: gray;
+}
+.btn1
+{
+    margin-right: 14px;
+}
+.btn2
+{
+    margin-left: 14px;
+}
+.btn3
+{
+    margin-left: 24px;
+    margin-right : 34px;
+}
