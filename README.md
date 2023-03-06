@@ -13,6 +13,6 @@ BACKEND
 
 RUN
 node index.js
-or (for continuous backend rendering:-
+or (for continuous backend changes:-
 nodemon index.js)
 
