@@ -14,5 +14,5 @@ BACKEND
 RUN
 node index.js
 or (for continuous backend rendering:-
-nodemon index.js
+nodemon index.js)
 
