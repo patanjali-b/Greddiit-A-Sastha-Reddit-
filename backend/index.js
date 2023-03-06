@@ -4,7 +4,7 @@ const router = express.Router()
 const cors = require('cors');
 mongoose.set("strictQuery", false);
 const bcrypt = require('bcrypt');
-mongoose.connect('mongodb+srv://admin:admin@cluster0.sqmsghm.mongodb.net/?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://<username>:<password>@cluster0.sqmsghm.mongodb.net/?retryWrites=true&w=majority')
   .then(() => console.log('connected'))
   .catch(e => console.log(e));
 const app = express()
